@@ -20,6 +20,7 @@
     "sync-request": "^4.1.0",
     "http": "^0.0.0",
     "url": "^0.11.0",
+    "cors": "^2.8.4",
 
     "node-red": "0.17.5",
     "node-red-node-msgpack": "*",

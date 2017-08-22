@@ -1,1 +1,6 @@
-#palette-header-test{background-color: black;}
+.palette_node {border-radius: 100px;}
+.innerCanvas rect{fill:#B6A4A0;}
+.node {rx:20; ry:25;}
+.node_icon_group{display:none;}
+.palette_icon_container{display:none;}
+.palette_icon{display:none;}

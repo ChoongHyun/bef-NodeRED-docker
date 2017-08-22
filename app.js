@@ -25,7 +25,7 @@ var settings = {
     // userDir:'/usr/src/node-red/',
     userDir:'/Users/choong/Downloads/',
     // custom node
-    nodesDir: '/usr/src/node-red/BEF-UI/custom/node/',
+    // nodesDir: '/usr/src/node-red/BEF-UI/custom/node/',
     nodesDir: '/Users/choong/git/bef-NodeRED-docker/BEF-UI/custom/node/',
     // admin auth
     adminAuth: require('./BEF-server/bef-admin-auth.js'),

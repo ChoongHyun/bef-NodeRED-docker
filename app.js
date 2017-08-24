@@ -12,7 +12,8 @@ var RED = require('node-red');
 var cors = require('cors');
 
 // Add a simple route for static content served from 'public'
-// app.use('/',express.static('public'));
+// app.use('/static',express.static('public'));
+ app.use('/dashboard/static', express.static('/Users/choong/git/bef-NodeRED-docker/BEF-UI/custom/js'));
 // Create a server
 var server = http.createServer(app);
 // Create the settings object - see default settings.js file for other options
@@ -57,7 +58,7 @@ var settings = {
        origin: '*',
        methods: 'GET,PUT,POST,DELETE'
     },
-    httpStatic: '/static',
+    httpStatic: '/Users/choong/git/bef-NodeRED-docker/BEF-UI/custom/js/',
     // logging
     logging: {
         // Only console logging is currently supported

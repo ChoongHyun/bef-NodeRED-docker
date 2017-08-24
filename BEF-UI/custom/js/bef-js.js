@@ -7,6 +7,9 @@ var defaultLang = window.localStorage.getItem('accept-language');
  * Document Ready
  */
 $( document ).ready(function(){
+	
+	$.getScript('./static/test.js', function(){});
+	
 
     // localStorage 에서 accept language를 확인한 후 정의
     i18n.init({ lng: defaultLang, debug: false })
